@@ -35,11 +35,11 @@ body {
   color: var(--color-black);
   font-size: 26px;
   line-height: 1.4;
-  font-weight: 900;
+  font-weight: 700;
   text-decoration: none;
 }
 
-.logo span {
+span {
   color: var(--color-accent);
 }
 
@@ -106,7 +106,75 @@ body {
 /* about */
 
 .title-two {
-  
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.17;
 }
 
+.about-list {
+  list-style: none;
+}
 
+.title-three {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+}
+
+.text {
+  color: var(--color-text);
+  line-height: 1.71;
+}
+
+/* studio-portfolio */
+
+.portfolio-list {
+  list-style: none;
+}
+
+.contacts-list {
+  list-style: none;
+}
+
+.contacts-title {
+  color: var(--color-paragraph);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.19;
+}
+
+.contacts-text {
+  color: var(--color-text);
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+/* footer */
+
+footer {
+  background-color: var(--color-background);
+}
+
+.footer-logo {
+  font-family: var(--font-family-logo);
+  color: var(--color-white);
+  font-size: 26px;
+  line-height: 1.4;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.adres-list {
+  list-style: none;
+}
+
+.adres-link {
+  color: var(--color-text);
+  line-height: 1.5;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.adres li:first-child a {
+  color: var(--color-white);
+}
