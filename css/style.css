@@ -128,7 +128,7 @@ span {
 
 /* studio-portfolio */
 
-.portfolio-list {
+.work-list {
   list-style: none;
 }
 
@@ -177,4 +177,41 @@ footer {
 
 .adres li:first-child a {
   color: var(--color-white);
+}
+
+
+/* portfolio */
+
+.buttons {
+  list-style: none;
+}
+
+.button {
+  font-weight: 500;
+  line-height: 1.6;
+  color: var(--color-paragraph);
+  background-color: var(--color-background2);
+}
+
+.button:hover,
+.button:focus {
+  color: var(--color-white);
+  background-color: var(--color-accent);
+}
+
+.portfolio {
+  list-style: none;
+}
+
+.portfolio-title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+  color: var(--color-paragraph);
+}
+
+.portfolio-text {
+font-size: 16px;
+font-weight: 400;
+color: var(--color-text);
 }
